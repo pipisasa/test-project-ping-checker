@@ -1,0 +1,38 @@
+.layout{
+  padding: 1rem;
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav{
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      .nav-item{
+        padding: 0;
+        border-radius: $paper-border-radius;
+        cursor: pointer;
+        margin: 0 .5rem;
+
+        &.active{
+          background: $primary-gradient;
+          box-shadow: $primary-shadow;
+        }
+        &:hover{
+          background-color: $main-bg-color;
+        }
+        .nav-link{
+          padding: .715rem 1.25rem;
+          display: inline-block;
+          color: $main-text-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .layout__body{
+    margin-top: 1rem;
+  }
+}

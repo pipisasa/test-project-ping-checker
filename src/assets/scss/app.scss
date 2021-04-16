@@ -1,3 +1,15 @@
+@import "abstracts/all";
+@import "core/all";
+@import "~bootstrap/scss/bootstrap.scss";
+@import "components/all";
+@import "layout/all";
+@import "sections/all";
+@import "pages/all";
+
+html, body{
+  background-color: $main-bg-color;
+  color: $main-text-color;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

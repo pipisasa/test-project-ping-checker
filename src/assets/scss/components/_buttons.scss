@@ -1,0 +1,21 @@
+.btn{
+  display: inline-block;
+  color: $main-text-color;
+  text-decoration: none;
+  border: none;
+  &-secondary{
+    background: transparent;
+    
+    &:hover, &:focus{
+      background: $main-bg-color;
+      box-shadow: none;
+    }
+  }
+
+
+  &-primary{
+    box-shadow: $primary-shadow;
+    background: $primary-gradient;
+    color: $white;
+  }
+}

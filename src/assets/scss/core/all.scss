@@ -1,0 +1,19 @@
+@import './reset';
+
+button, input, a{
+  &:focus{
+    // border: 1px solid $primary;
+    border: none;
+    outline: none;
+    // box-shadow: 0 0 2px 2px #7367f0 !important;
+  }
+}
+ul.def-list{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
